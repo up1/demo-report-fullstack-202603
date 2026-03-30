@@ -46,3 +46,7 @@ $npm start
 ```
 Open http://localhost:5173 to view it in the browser
 
+## 3. [VS Code and Pencil](https://www.pencil.dev/downloads)
+* Use [VS Code for development](https://marketplace.visualstudio.com/items?itemName=highagency.pencildev)
+* Use Pencil for UI design
+
