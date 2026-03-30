@@ -50,3 +50,12 @@ Open http://localhost:5173 to view it in the browser
 * Use [VS Code for development](https://marketplace.visualstudio.com/items?itemName=highagency.pencildev)
 * Use Pencil for UI design
 
+
+
+## 4. Steps to implement the frontend with React and Tailwind CSS
+```
+Create frontend with React and Tailwind CSS 
+that use specification from file #file:front_req.md 
+and create new route `/report` page  
+and follow design from Pencil for the report UI
+and create code in folder frontend```
