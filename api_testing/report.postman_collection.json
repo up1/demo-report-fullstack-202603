@@ -1,0 +1,40 @@
+{
+  "info": {
+    "_postman_id": "65cea99e-eacd-4b27-b745-3888275e064e",
+    "name": "report",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "1453931",
+    "_collection_link": "https://go.postman.co/collection/1453931-65cea99e-eacd-4b27-b745-3888275e064e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "report1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"ผู้ใช้งานทั้งหมดที่มีเงินเดือนมากกว่า 56,000 บาท\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/report",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "report"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
