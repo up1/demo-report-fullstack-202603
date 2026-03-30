@@ -24,6 +24,18 @@ backend/
 ├── test_db.db
 ```
 
+## Build and run the server
+Install dependencies
+```
+$npm install
+```
+
+Start the server
+```
+$node index.js
+```
+Open http://localhost:3000 to view it in the browser
+
 ## Database design
 ```
 CREATE TABLE IF NOT EXISTS employees (
