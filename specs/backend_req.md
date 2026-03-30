@@ -5,6 +5,24 @@
 * Express
 * CORS middleware
 * SQLite with [sqlite in node 22+](https://nodejs.org/api/sqlite.html)
+* Don't add .env file to git, use .env.sample instead for reference
+
+## Project structure with layer architecture
+```
+backend/
+├── controllers/
+│   └── reportController.js
+├── services/
+│   └── reportService.js
+├── routes/
+│   └── reportRoutes.js
+├── database/
+│   └── db.js
+├── index.js
+├── package.json
+├── .env.sample
+├── test_db.db
+```
 
 ## Database design
 ```
@@ -83,7 +101,7 @@ User prompt
 4. Check result as SELECT sql from OpenAI
    * 4.1 Pass then go to step 5
    * 4.2 Fail then return error 500 to client
-5. Execute SQL query to sqlite database
+5. Execute SQL query to sqlite database in file test_db.db with [sqlite in node](https://nodejs.org/api/sqlite.html)
    * 5.1 Pass and not empty then generate result with code=200
    * 5.2 Pass and empty then generate result a with code=404 data not found
    * 5.3 Error then generate result with code=500 system error
