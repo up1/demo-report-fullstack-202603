@@ -4,7 +4,7 @@
 * Database: SQLite
 
 
-### Backend with NodeJS and Express
+## 1. Backend with NodeJS and Express
 * REST API
 * Use Express to create a REST API
 * Use CORS middleware to enable CORS
@@ -28,7 +28,12 @@ $node index.js
 ```
 Open http://localhost:3000 to view it in the browser
 
-### Frontend with ReactJS and TypeScript
+### Steps to implement the backend with AI Agent
+```
+Create REST api of POST /api/report that use specification from file #file:backend_req.md and create code in folder backend
+```
+
+## 2. Frontend with ReactJS and TypeScript
 * React Router
 Install dependencies
 ```
